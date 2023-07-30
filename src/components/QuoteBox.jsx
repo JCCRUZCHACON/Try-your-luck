@@ -14,7 +14,6 @@ const QuoteBox = ({handleChangeQuote, quote}) => {
             </article>
         </section>
         <footer><h4>autor: {quote.author}</h4></footer>
-        <article className='git'><b>JUAN CARLOS CRUZ CHACON <a href="https://github.com/JCCRUZCHACON/ENTREGABLE1">GITHUB</a> </b></article>
     </section>
   )
 }
