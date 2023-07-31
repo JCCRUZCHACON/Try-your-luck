@@ -14,29 +14,36 @@
 
 }
 
+.but {
+    display: grid;
+    place-content: center; 
+    padding: 10px ;
+    letter-spacing: 4px;
+    transition: 0.2s;
+    transition-delay: 0.1s; 
+}
+ 
 .button {
     background-color: rgb(67, 75, 224);
     color:white;
-    font-size: 20px;border: 2px solid white;
+    font-size: 20px;
+    border: 2px solid white;
     border:5px solid white;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     cursor: pointer;
-    position: relative;
-    display: inline-block;
     padding: 15px 30px;
     letter-spacing: 4px;
-    overflow: hidden;
     transition: 0.2s;
     transition-delay: 0.1s;
 }
 
 .button:hover {
-    transform: scale(1.1) translateY(-3px);
+    transform: scale(1.1) translateY(-3px); 
     background: #a945c7;
-    box-shadow: 0 0 20px #a945c7, 0 0 50px
+    box-shadow: 0 0 10px #a945c7, 0 0 5px
     #a945c7, 0 0 #a945c7;
-}
+} 
 
 h1 {
     
